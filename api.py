@@ -12,7 +12,7 @@ def get_info():
     response_data = OrderedDict([
         ("email", "nmurigi@kabarak.ac.ke"),
         ("current_datetime", datetime.utcnow().isoformat() + "Z"),
-        ("github_url", "https://github.com/StanleyMurigi/HNG-12/blob/main/track-0/api.py")
+        ("github_url", "<https://github.com/StanleyMurigi/HNG-12>")
         ])
 
     return app.response_class(
